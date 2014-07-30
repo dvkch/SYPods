@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/JonasGessner/JGScrollableTableViewCell'
   s.author   = { 'Jonas Gessner' => 'http://j-gessner.de/' }
   s.source   = { :git => 'https://github.com/JonasGessner/JGScrollableTableViewCell' }
-  s.source_files = '*.{h,m}'
+  s.source_files = 'JGScrollableTableViewCell/*.{h,m}'
   s.requires_arc = true
 
   s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES' }
