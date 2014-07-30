@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'JGScrollableTableViewCell is a simple and easy to use UITableViewCell subclass with a scrollable content view that exposes an accessory view when scrolled. The behavior is inspired by the iOS 7 mail app. '
   s.homepage = 'https://github.com/JonasGessner/JGScrollableTableViewCell'
   s.author   = { 'Jonas Gessner' => 'http://j-gessner.de/' }
-  s.source   = { :git => 'https://github.com/JonasGessner/JGScrollableTableViewCell' }
+  s.source   = { :git => 'https://github.com/JonasGessner/JGScrollableTableViewCell.git' }
   s.source_files = 'JGScrollableTableViewCell/*.{h,m}'
   s.requires_arc = true
 
