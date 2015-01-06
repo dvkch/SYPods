@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.requires_arc = false
 
   s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES' }
-  s.osx.deployment_target = '10.9'
+  s.osx.deployment_target = '10.7'
 end
