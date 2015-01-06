@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Cobook' => 'https://cobook.co' }
   s.source   = { :git => 'https://github.com/cobook/facebook-osx-sdk.git' }
   s.source_files = 'src/*.{h,m}'
-  s.requires_arc = true
+  s.requires_arc = false
 
   s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES' }
   s.osx.deployment_target = '10.9'
