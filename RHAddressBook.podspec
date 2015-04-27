@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.source_files = 'RHAddressBook/**'
   s.prefix_header_file = 'RHAddressBook/RHAddressBook-Prefix.pch'
   s.requires_arc = true
+  s.xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'RH_AB_INCLUDE_GEOCODING=1'}
 
   s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES' }
   s.ios.deployment_target = '5.0'
