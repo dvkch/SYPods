@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Richard Heard' => 'https://twitter.com/heardrwt' }
   s.source   = { :git => 'https://github.com/heardrwt/RHAddressBook.git' }
   s.source_files = 'RHAddressBook/**'
+  s.prefix_header_file = 'RHAddressBook/RHAddressBook-Prefix.pch'
   s.requires_arc = true
 
   s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES' }
