@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Rick Maddy' => 'https://github.com/rmaddy' }
   s.source   = { :git => 'https://github.com/rmaddy/RMPhoneFormat.git' }
   s.source_files = 'RMPhoneFormat/RMPhoneFormat.{h,m}'
+  s.prefix_header_file = 'RMPhoneFormat/RHAddressBook-Prefix.pch'
   s.requires_arc = true
 
   s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES' }
