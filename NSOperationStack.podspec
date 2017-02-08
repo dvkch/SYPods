@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target  = '10.6'
   s.ios.deployment_target  =  '4.0'
   s.tvos.deployment_target =  '9.0'
-  s.source_files  = 'NSOperationStack'
+  s.source_files  = 'NSOperationStack/*'
   s.framework = 'Foundation'
 end
